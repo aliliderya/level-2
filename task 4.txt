@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cout << "Bir eded daxil edin: ";
+    cin >> a;
+
+    if (a % 2 == 0)
+        cout << "Cut ededdir." << endl;
+    else
+        cout << "Tek ededdir." << endl;
+
+    return 0;
+}

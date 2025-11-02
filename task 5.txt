@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int bal;
+    cout << "bal = ";
+    cin >> bal;
+
+    if (bal >= 0 && bal <= 50) {
+        cout << "F";
+    }
+    else if (bal >= 51 && bal <= 60) {
+        cout << "E";
+    }
+    else if (bal >= 61 && bal <= 70) {
+        cout << "D";
+    }
+    else if (bal >= 71 && bal <= 80) {
+        cout << "C";
+    }
+    else if (bal >= 81 && bal <= 90) {
+        cout << "B";
+    }
+    else if (bal >= 91 && bal <= 100) {
+        cout << "A";
+    }
+
+    return 0;
+}

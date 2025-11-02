@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a ;
+    cout << "Eded daxil edin:"  ;
+    cin >> a ;
+    if ( a > 0){
+        cout << " musbet ededdir" ;
+    } else if (a < 0){
+        cout << " menfi ededdir" ;
+    }else {
+        cout << "a = 0"  ;
+    }
+
+    return 0;
